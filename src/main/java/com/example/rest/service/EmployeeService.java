@@ -26,4 +26,10 @@ public class EmployeeService {
 		System.out.println(empList);
 		return empList;
 	}
+	
+	public Employee addEmployee(Employee emp){
+		empList.add(emp);
+		System.out.println(empList);
+		return emp;
+	}
 }
